@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Result = props => {
-  let { result } = props
-  return <p>{result}</p>
+const Result = () => {
+  return (
+    <>
+      <p>test - results</p>
+    </>
+  )
 }
 
 export default Result
