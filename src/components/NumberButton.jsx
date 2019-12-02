@@ -13,9 +13,11 @@ import React from 'react'
 const NumberButton = props => {
   return (
     <>
-      <button onClick={() => props.handleClick(props.number)}>
-        {props.number}
-      </button>
+      <section>
+        <button onClick={() => props.handleClick(props.number)}>
+          {props.number}
+        </button>
+      </section>
     </>
   )
 }

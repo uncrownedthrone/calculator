@@ -9,11 +9,7 @@ const HomePage = props => {
     <>
       <Result />
       {numbers.map(number => {
-        return (
-          <section key={number}>
-            <NumberButton handleClick={numberClicked} number={number} />
-          </section>
-        )
+        return <NumberButton handleClick={numberClicked} number={number} />
       })}
     </>
   )
