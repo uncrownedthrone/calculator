@@ -1,14 +1,12 @@
 import React from 'react'
-import Calculator from '../components/Calculator'
 import Result from '../components/Result'
-import NumberButtons from '../components/NumberButtons'
+import CreateButtons from '../components/CreateButtons'
 
-const HomePage = () => {
+const HomePage = props => {
   return (
     <>
       <Result />
-      <Calculator />
-      <NumberButtons />
+      <CreateButtons />
     </>
   )
 }
